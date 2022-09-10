@@ -8,5 +8,5 @@ VALUES ("sales associate", 55000, 1),
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Jim","Scott", 1, null),
-       ("Peter","Parker",2 , null);
+       ("Peter","Parker",2 , 1);
        
