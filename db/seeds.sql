@@ -1,3 +1,4 @@
+-- Add some initial data
 INSERT INTO department (name)
 VALUES ("sales"),
        ("IT");
