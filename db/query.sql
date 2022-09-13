@@ -27,17 +27,3 @@ FROM employee e
 JOIN role ON e.role_id = role.id
 LEFT JOIN department ON role.department_id = department.id
 LEFT JOIN employee m ON e.manager_id = m.id
-
--- add a department
--- INSERT INTO department (name)
--- VALUES ("")
-
--- add a role
--- INSERT INTO role (title, salary, department_id)
--- VALUES (),
-
--- add an employee
--- INSERT INTO employee (first_name, last_name, role_id, manager_id)
--- VALUES ("Jim","Scott", 1, null),
---        ("Peter","Parker",2 , 1);
-       
